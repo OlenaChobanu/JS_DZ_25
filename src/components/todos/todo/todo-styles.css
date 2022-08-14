@@ -1,0 +1,22 @@
+.todo-item{
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #666;
+    background-color: lightpink;
+}
+.todo-item + .todo-item {
+    margin-top: 15px;
+}
+
+.button-container{
+    width: 100%;
+    align-items: center;
+    text-align: right;
+}
+
+.completed{
+    background-color: lightgreen;
+}

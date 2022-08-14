@@ -1,0 +1,8 @@
+.app-header {
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+.app-header > input {
+    margin-right: 30px;
+}
